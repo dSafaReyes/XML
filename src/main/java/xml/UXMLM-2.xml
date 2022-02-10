@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cancion duracion="3:40" anio="1979">
+    <titulo>Rock with you</titulo>
+    <compositores>
+        <compositor>
+            <nombre>Rod</nombre>
+            <apellido>Temperton</apellido>
+        </compositor>
+    </compositores>
+    <discografica>Epic</discografica>
+    <productores>
+        <productor>
+            <nombre>Quincy</nombre>
+            <apellido>Jones</apellido>
+        </productor>
+    </productores>
+    <artistas>
+        <artista>Michael Jackson</artista>
+    </artistas>
+</cancion>

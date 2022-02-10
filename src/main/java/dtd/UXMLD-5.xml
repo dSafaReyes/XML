@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE cancion[
+    <!ELEMENT cancion (titulo+, compositores+, discografica+, productores+, artistas+)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT compositores (compositor)>
+    <!ELEMENT compositor (nombre+, apellido+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT discografica (#PCDATA)>
+    <!ELEMENT productores (productor)>
+    <!ELEMENT productor (nombre+, apellido+)>
+    <!ELEMENT artistas (artista)>
+    <!ELEMENT artista (#PCDATA)>
+    <!ATTLIST cancion duracion CDATA #REQUIRED>
+    <!ATTLIST cancion anio CDATA #REQUIRED>
+<!--    <!ENTIDAD c SISTEMA "http://www.xmlwriter.net/copyright.xml">-->
+]>
+<cancion duracion="3:40" anio="1979">
+    <titulo>Rock with you</titulo>
+    <compositores>
+        <compositor>
+            <nombre>Rod</nombre>
+            <apellido>Temperton</apellido>
+        </compositor>
+    </compositores>
+    <discografica>Epic</discografica>
+    <productores>
+        <productor>
+            <nombre>Quincy</nombre>
+            <apellido>Jones</apellido>
+        </productor>
+    </productores>
+    <artistas>
+        <artista>Michael Jackson</artista>
+    </artistas>
+</cancion>

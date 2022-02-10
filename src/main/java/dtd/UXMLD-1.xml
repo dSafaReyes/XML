@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaje[
+    <!ELEMENT mensaje (Para, De, Asunto, Texto)>
+    <!ELEMENT Para (#PCDATA)>
+    <!ELEMENT De (#PCDATA)>
+    <!ELEMENT Asunto (#PCDATA)>
+    <!ELEMENT Texto (#PCDATA)>
+]>
+<mensaje>
+    <Para>p@q.org</Para>
+    <De>a@b.org</De>
+    <Asunto>Ultima nota.</Asunto>
+    <Texto>Hola este ...</Texto>
+</mensaje>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="titulo" type="xs:string"/>
+    <xs:element name="autor" type="xs:string"/>
+    <xs:element name="modulo" type="xs:string"/>
+    <xs:element name="licencia" type="xs:string"/>
+    <xs:element name="fecha_publicacion" type="xs:string"/>
+    <xs:element name="isbn" type="xs:string"/>
+    <xs:element name="parrafo_texto" type="xs:integer"/>
+    <xs:element name="imagen" type="xs:integer"/>
+    <xs:element name="animacion" type="xs:integer"/>
+    <xs:element name="autoevaluacion" type="xs:integer"/>
+    <xs:element name="ejercicio" type="xs:integer"/>
+
+    <xs:element name="autores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="autor" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="leccion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="parrafo_texto"/>
+                <xs:element ref="imagen"/>
+                <xs:element ref="animacion"/>
+                <xs:element ref="autoevaluacion"/>
+                <xs:element ref="ejercicio"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="lecciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="leccion" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ebook">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titulo"/>
+                <xs:element ref="autores"/>
+                <xs:element ref="modulo"/>
+                <xs:element ref="licencia"/>
+                <xs:element ref="fecha_publicacion"/>
+                <xs:element ref="isbn"/>
+                <xs:element ref="lecciones"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="coleccion_ebook">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ebook" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

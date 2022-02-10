@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asp>
+    <servidores>
+        <idservidor></idservidor>
+        <ubicacion></ubicacion>
+        <hardware>
+            <placa></placa>
+            <tipomem tplaca="ATX"></tipomem>
+            <cantmen amp="Ghz"></cantmen>
+            <velomem veloc="Ghz"></velomem>
+            <tecnhd></tecnhd>
+            <capachd ahd="Tb"></capachd>
+            <tarjred></tarjred>
+        </hardware>
+        <marca></marca>
+        <uso></uso>
+        <fecha_uf></fecha_uf>
+    </servidores>
+</asp>

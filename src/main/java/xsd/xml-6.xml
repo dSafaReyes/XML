@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Ocio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="UXMLS-6.xsd">
+    <Videojuegos>
+
+        <Juego Género="Arcade" Año="2004">
+            <Titulo Compat="PC">Bandits Phoenix Rising</Titulo>
+            <Codigo>AC-135 ONT</Codigo>
+            <Fabricante>PAN VISION</Fabricante>
+            <Precio Moneda="euros">40</Precio>
+            <Edad>6</Edad>
+            <Comentario>Estás a punto de entrar en el mundo de Bandits - Phoenix Rising. un mundo de tipos duros que
+                luchan por sobrevivir; bandas motorizadas de bandidos que imponen su ley combatiendo por el com...</Comentario>
+        </Juego>
+
+        <Juego Género="Acción" Año="2005">
+            <Titulo Compat="PC">Battlefield 2</Titulo>
+            <Codigo>SC-246 PXD</Codigo>
+            <Disponible Tecno="PS2"/>
+            <Disponible Tecno="GCUBE"/>
+            <Disponible Tecno="XBOX"/>
+            <Fabricante>Digital Illusions</Fabricante>
+            <Tamaño Magnitud="MB">11.8</Tamaño>
+            <Precio Moneda="euros">39</Precio>
+            <Edad>1</Edad>
+            <Comentario>La continuación de uno de los juegos de acción multijugador más sorprendentes y adictivos de
+                los últimos años, pero esta vez dejando atrás a la Segunda Guerra Mundial y preparándonos ...</Comentario>
+        </Juego>
+
+        <Juego Género="Deportes" Año="2005">
+            <Titulo Compat="GBA">FIFA Football 2005</Titulo>
+            <Codigo>AA-198 URF</Codigo>
+            <Fabricante>EA Sports</Fabricante>
+            <Precio Moneda="euros">46.95</Precio>
+            <Edad>12</Edad>
+            <Comentario>Y por fin llegamos al año en el que supuestamente Electronic Arts nos iba a regalar el mejor
+                FIFA, el juego de fútbol definitivo. Desde el punto de penalti, y con la clásica controversia de por
+                medio...</Comentario>
+        </Juego>
+
+        <Juego Género="Estrategia" Año="2004">
+            <Titulo Compat="PC">IMPERIUM III</Titulo>
+            <Disponible Tecno="PS2"/>
+            <Disponible Tecno="GBA"/>
+            <Fabricante>FX Interactive</Fabricante>
+            <Precio Moneda="euros">19.95</Precio>
+            <Edad>12</Edad>
+            <Comentario>Augusto desembarca en egipto tras vencer a marco antonio y clepatra en la batalla naval de
+                Actium. Viriato mantiene en jaque a las legiones en Hispania. Marco Aurelio se enfrenta a los
+                germanos...</Comentario>
+        </Juego>
+
+        <Juego Género="Rol" Año="2004">
+            <Titulo Compat="PC">Piratas del Caribe</Titulo>
+            <Disponible Tecno="PS2"/>
+            <Disponible Tecno="GBA"/>
+            <Fabricante>Betsheda</Fabricante>
+            <Precio Moneda="euros">19.95</Precio>
+            <Edad>12</Edad>
+            <Comentario>El Capitán Nathaniel Hawk es testigo de la invasión de una isla inglesa por ...</Comentario>
+        </Juego>
+
+    </Videojuegos>
+</Ocio>

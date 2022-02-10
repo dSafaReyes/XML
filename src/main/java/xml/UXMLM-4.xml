@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccion_ebook>
+    <ebook>
+        <titulo>Lenguaje de Marcas</titulo>
+        <autores>
+            <autor>Alex Tolon</autor>
+        </autores>
+        <modulo>LMSGI</modulo>
+        <licencia>CC3.0</licencia>
+        <fecha_publicacion>15 de Septiembre de 2011</fecha_publicacion>
+        <isbn>978929212456</isbn>
+        <lecciones>
+            <leccion>
+                <parrafo_texto>2</parrafo_texto>
+                <imagen>1</imagen>
+                <animacion>0</animacion>
+                <autoevaluacion>2</autoevaluacion>
+                <ejercicio>1</ejercicio>
+            </leccion>
+            <leccion>
+                <parrafo_texto>3</parrafo_texto>
+                <imagen>0</imagen>
+                <animacion>1</animacion>
+                <autoevaluacion>1</autoevaluacion>
+                <ejercicio>1</ejercicio>
+            </leccion>
+        </lecciones>
+    </ebook>
+    <ebook>
+        <titulo>Empresa e Iniciativa Emprendedora</titulo>
+        <autores>
+            <autor>Miguel Ángel Sánchez</autor>
+            <autor>Xabier Epelde</autor>
+        </autores>
+        <modulo>EIE</modulo>
+        <licencia>Public Domain</licencia>
+        <fecha_publicacion>25 de Junio de 2010</fecha_publicacion>
+        <isbn>978439288416</isbn>
+        <lecciones>
+            <leccion>
+                <parrafo_texto>3</parrafo_texto>
+                <imagen>0</imagen>
+                <animacion>2</animacion>
+                <autoevaluacion>1</autoevaluacion>
+                <ejercicio>2</ejercicio>
+            </leccion>
+        </lecciones>
+    </ebook>
+</coleccion_ebook>

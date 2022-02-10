@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="titulo" type="xs:string"/>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="apellidos" type="xs:string"/>
+    <xs:element name="discografica" type="xs:string"/>
+    <xs:element name="artista" type="xs:string"/>
+
+    <xs:element name="compositor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellidos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="productor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellidos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attribute name="duracion" type="xs:time"/>
+    <xs:attribute name="anio" type="xs:gYear"/>
+
+    <xs:element name="cancion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titulo"/>
+                <xs:element ref="compositor"/>
+                <xs:element ref="discografica"/>
+                <xs:element ref="productor"/>
+                <xs:element ref="artista"/>
+            </xs:sequence>
+            <xs:attribute ref="duracion"/>
+            <xs:attribute ref="anio"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

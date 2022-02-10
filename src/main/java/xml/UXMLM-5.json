@@ -1,0 +1,55 @@
+{
+  "coleccion_ebook": {
+    "ebook": [
+      {
+        "titulo": "Lenguaje de Marcas",
+        "autores": {
+          "autor": ["Alex Tolon"]
+        },
+        "modulo": "LMSGI",
+        "licencia": "CC3.0",
+        "fecha_publicacion": "15 de Septiembre de 2011",
+        "isbn": "ISBN 978929212456",
+        "lecciones": {
+          "leccion": [
+            {
+              "parrafo_texto": "2",
+              "imagen": "1",
+              "animacion": "0",
+              "autoevaluacion": "2",
+              "ejercicio": "1"
+            },
+            {
+              "parrafo_texto": "3",
+              "imagen": "0",
+              "animacion": "1",
+              "autoevaluacion": "1",
+              "ejercicio": "1"
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "Empresa e Iniciativa Emprendedora",
+        "autores": {
+          "autor": ["Miguel Ángel Sánchez", "Xabier Epelde"]
+        },
+        "modulo": "EIE",
+        "licencia": "Public Domain",
+        "fecha_publicacion": "25 de Junio de 2010",
+        "isbn": "ISBN 978439288416",
+        "lecciones": {
+          "leccion": [
+            {
+              "parrafo_texto": "3",
+              "imagen": "0",
+              "animacion": "2",
+              "autoevaluacion": "1",
+              "ejercicio": "2"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

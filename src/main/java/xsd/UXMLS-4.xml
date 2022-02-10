@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="titulo" type="xs:string"/>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="apellidos" type="xs:string"/>
+    <xs:element name="discografica" type="xs:string"/>
+    <xs:element name="artista" type="xs:string"/>
+    <xs:element name="fecha_publicacion" type="xs:string"/>
+
+    <xs:element name="compositor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellidos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="compositores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="compositor" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="productor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellidos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="productores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="productores" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="artistas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="artista" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cancion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titulo"/>
+                <xs:element ref="compositores"/>
+                <xs:element ref="discografica"/>
+                <xs:element ref="productores"/>
+                <xs:element ref="artistas"/>
+                <xs:element ref="fecha_publicacion"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="canciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="cancion" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
